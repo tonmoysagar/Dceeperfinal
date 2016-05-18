@@ -4,11 +4,24 @@
 }
 
 body {
-     background-image:url("img/goaback2.jpg");
+   
+    background-image:  url("img/goaback2.jpg");
      background-repeat:no-repeat;
-     background-size:cover;
-     font-family:Candara;
-     
+    background-size: cover;
+    font-family: Candara;
+}
+#bg{
+    min-height: 100%;
+    min-width: 1024px;
+	
+ 
+  width: 100%;
+  height: auto;
+	
+  
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 

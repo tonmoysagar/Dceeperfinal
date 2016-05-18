@@ -101,7 +101,8 @@
                     </asp:Timer>
                     <asp:ScriptManager ID="ScriptManager1" runat="server">
                     </asp:ScriptManager>
-                    <asp:Image ID="Image21" runat="server" Height="177px" Width="1200px" />
+                    <br />
+                    <asp:Image ID="Image21" runat="server" Height="193px" Width="1002px" />
                 </ContentTemplate>
             </asp:UpdatePanel>
             

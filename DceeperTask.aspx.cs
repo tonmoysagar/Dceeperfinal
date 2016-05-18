@@ -16,10 +16,11 @@ public partial class _Default : System.Web.UI.Page
     const string fb_key = "1255716371122485";
     const string fb_secret = "95f9964dcfb485c23ae06b02f87ade94";
     static int i = 0;
-    string[] image_addr = {"~/img/rotate1.jpg", "~/img/rotate2.jpg"};
+   
        
     protected void Page_Load(object sender, EventArgs e)
     {
+        string[] image_addr = { "~/img/rotate1.jpg", "~/img/rotate2.jpg" };
         try
         {
             if (i == 2)
