@@ -41,7 +41,7 @@ public partial class _Default : System.Web.UI.Page
             PhotoCollection photos = flickr.PhotosSearch(options);
             var id = "farm" + photos[0].Farm + ".staticflickr.com./" + photos[0].Server + "/" + photos[0].PhotoId + "_" + photos[0].Secret + ".jpg";
             Image1.ImageUrl = "http://" + id;
-
+            lbl1.Text = Image1.ImageUrl;
             id = "farm" + photos[1].Farm + ".staticflickr.com./" + photos[1].Server + "/" + photos[1].PhotoId + "_" + photos[1].Secret + ".jpg";
             Image2.ImageUrl = "http://" + id;
             id = "farm" + photos[2].Farm + ".staticflickr.com./" + photos[2].Server + "/" + photos[2].PhotoId + "_" + photos[2].Secret + ".jpg";

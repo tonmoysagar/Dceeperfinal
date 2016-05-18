@@ -73,6 +73,16 @@
      js.src = "//connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
+  var urls = [document.getElementById("lbl1").valueOf()]
+  var d1 = document.getElementById("image1");
+  var el1 = document.createElement("div");
+  el1.setAttribute("class", "fb-share-button");
+  el1.setAttribute("data-href", urls[0]);
+  el1.setAttribute("data-layout", "button_count");
+  el1.setAttribute("data-mobile-iframe", "true");
+ 
+  d.appendChild(el1);
+
 </script>
     <script>
         function eval2() {
@@ -116,6 +126,7 @@
                 <table cellpadding="0" cellspacing="1" class="auto-style1"   style="float:left">
                     <tr>
                         <td class="auto-style12">
+                            
                             <asp:Image ID="Image1" runat="server" Height="281px" Width="324px" />
                             <br />
                             &nbsp;
@@ -136,8 +147,10 @@
                             <br />
                              
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                          </td>
+                         <div id="image1"></div>
+                                 </td>
                         <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;
+                            
                             <asp:Image ID="Image2" runat="server" Height="278px" Width="345px" />
                             &nbsp;&nbsp;<br /> Title:&nbsp;&nbsp;&nbsp;&nbsp;
                             <asp:Label ID="lbl2_txt" runat="server" Text="Label" CssClass="labelstyle"></asp:Label>
@@ -294,6 +307,8 @@
                             <br />
                             &nbsp;&nbsp;&nbsp;
                             <asp:Button ID="Button9" runat="server" CssClass="fb-share-button" OnClick="Button9_Click" Text="share" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:Label ID="lbl1" runat="server" Text="Label"></asp:Label>
                         </td>
                         <td>
                             <asp:Image ID="Image20" runat="server" Height="303px" Width="439px" />
@@ -469,7 +484,7 @@
             
     </div>
         
-    
+    -
     </form>
         </form>
 </body>
