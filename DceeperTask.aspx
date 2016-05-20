@@ -29,6 +29,7 @@
         }
         .auto-style8 {
             height: 271px;
+            width: 773px;
         }
         .auto-style9 {
             height: 271px;
@@ -36,6 +37,60 @@
         }
         .auto-style10 {
             width: 559px;
+        }
+        .auto-style11 {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #000000;
+        }
+        .auto-style12 {
+            width: 73px;
+        }
+        .auto-style13 {
+            width: 80px;
+        }
+        .auto-style14 {
+            width: 74px;
+        }
+        .auto-style15 {
+            width: 77px;
+        }
+        .auto-style16 {
+            width: 100%;
+            background-color: #000000;
+        }
+        .auto-style17 {
+            height: 19px;
+        }
+        .auto-style18 {
+            height: 19px;
+            width: 263px;
+        }
+        .auto-style19 {
+            width: 263px;
+        }
+        .auto-style20 {
+            height: 19px;
+            width: 288px;
+        }
+        .auto-style21 {
+            width: 288px;
+        }
+        .auto-style22 {
+            height: 19px;
+            width: 266px;
+        }
+        .auto-style23 {
+            width: 266px;
+        }
+        .auto-style25 {
+            width: 773px;
+        }
+        .auto-style26 {
+            width: 250px;
+        }
+        .auto-style27 {
+            width: 273px;
         }
         </style>
     
@@ -59,7 +114,37 @@
         <asp:UpdatePanel ID="UpdatePanel1" runat="server">
             <ContentTemplate>
                 <asp:Image ID="Image21" runat="server" Height="257px" Width="1768px" BorderStyle="Solid" />
-                &nbsp;<br /><asp:ScriptManager runat="server"></asp:ScriptManager>
+                &nbsp;<br /> &nbsp;<table class="auto-style4" style="border-style: 0; border-width: 0px; padding: 0px; margin: 0px; color: #000000; background-color: #000000;">
+                    <tr>
+                        <td class="auto-style26">
+                            <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td class="auto-style27">
+                            <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td class="auto-style23">
+                            <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style26">
+                            <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td class="auto-style27">
+                            <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td class="auto-style23">
+                            <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                        </td>
+                    </tr>
+                </table>
+                <br /><asp:ScriptManager runat="server"></asp:ScriptManager>
             </ContentTemplate>
             
         </asp:UpdatePanel>
@@ -85,8 +170,7 @@
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <br />
                             <div id="image-1"></div>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <br />
                             
                         </td>
@@ -103,7 +187,6 @@
                             <br />
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
                             <br />
                             <br />
                              <div id ="image-2"></div>
@@ -142,8 +225,7 @@
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
-&nbsp;<div id ="image-4"></div> </td>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div id ="image-4"></div> </td>
                         <td class="auto-style2">
                             <asp:Image ID="Image5" runat="server" Height="292px" Width="342px" />
                             <br />
@@ -157,10 +239,7 @@
                             Views:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <asp:Label ID="lbl5_views" runat="server" Text="Label"></asp:Label>
                             <br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;<asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <br />
                              <div id ="image-5"></div>
                         </td>
@@ -180,7 +259,6 @@
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <br />
-                            <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
                              <div id ="image-6"></div>
                         </td>
                     </tr>
@@ -197,7 +275,6 @@
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <br />
-                            <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
                              <div id ="image-7"></div>
                         </td>
                         <td class="auto-style2">
@@ -213,8 +290,7 @@
                             Views:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <asp:Label ID="lbl8_views" runat="server" Text="Label"></asp:Label>
                             <br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
                            
                             <br />
                             <div id ="image-8"></div>
@@ -234,10 +310,8 @@
                             Views:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <asp:Label ID="lbl9_views" runat="server" Text="Label"></asp:Label>
                             <br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="lbl9" runat="server" Text="Label"></asp:Label>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
                             <br />
-                            <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
                              <div id ="image-9"></div>
                         </td>
                     </tr>
@@ -259,9 +333,7 @@
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <br />
                             &nbsp;&nbsp;&nbsp;
-                            &nbsp;<asp:Label ID="Label10" runat="server" Text="Label"></asp:Label>
-                            
-                             <div id ="image-10"></div>
+                            &nbsp;<div id ="image-10"></div>
                         </td>
                         <td>
                             <asp:Image ID="Image11" runat="server" Height="303px" Width="439px" />
@@ -278,9 +350,7 @@
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <br />
-                            &nbsp;<asp:Label ID="Label11" runat="server" Text="Label"></asp:Label>
-                            
-                             <div id ="image-11"></div>
+                            &nbsp;<div id ="image-11"></div>
                         </td>
                     </tr>
                       </table>
@@ -304,9 +374,7 @@
                              <asp:Label ID="lbl12_views" runat="server" Text="Label"></asp:Label>
                              <br />
                              <br />
-                             &nbsp;<asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
-                             
-                              <div id ="image-12"></div>
+                             &nbsp;<div id ="image-12"></div>
                          </td>
                          <td class="auto-style9">
                              <br />
@@ -321,7 +389,6 @@
                              <br />
                              <br />
                              &nbsp;
-                             <asp:Label ID="Label13" runat="server" Text="Label"></asp:Label>
                              <br />
                              <br />
                               <div id ="images13"></div>
@@ -339,9 +406,7 @@
                              <br />
                              &nbsp;&nbsp;&nbsp;
                              <br />
-                             &nbsp;<asp:Label ID="Label14" runat="server" Text="Label"></asp:Label>
-                             
-                              <div id ="image-14"></div>
+                             &nbsp;<div id ="image-14"></div>
                          </td>
                      </tr>
                      <tr>
@@ -357,9 +422,7 @@
                              <br />
                              &nbsp;&nbsp;<br /><br />
                              
-                                  &nbsp;<asp:Label ID="Label15" runat="server" Text="Label"></asp:Label>
-                             
-                              <div id="image-15"></div>
+                                  &nbsp;<div id="image-15"></div>
                          </td>
                          <td class="auto-style2">
                              <asp:Image ID="Image16" runat="server" Height="252px" Width="328px" />
@@ -373,11 +436,9 @@
                              <br />
                              Views:<asp:Label ID="lbl16_views" runat="server" Text="Label"></asp:Label>
                              <br />
-                             &nbsp;<asp:Label ID="Label16" runat="server" Text="Label"></asp:Label>
-                             
-                              <div id ="image-16"></div>
+                             &nbsp;<div id ="image-16"></div>
                          </td>
-                         <td>
+                         <td class="auto-style25">
                              <asp:Image ID="Image17" runat="server" Height="251px" Width="328px" />
                              <br />
                              <br />
@@ -387,7 +448,6 @@
                              <br />
                              Views:<asp:Label ID="lbl17_views" runat="server" Text="Label"></asp:Label>
                              <br />
-                             <asp:Label ID="Label17" runat="server" Text="Label"></asp:Label>
                              <br />
                               <div id ="image-17"></div>
                          </td>
@@ -403,9 +463,7 @@
                              <br />
                              Views:<asp:Label ID="lbl18_views" runat="server" Text="Label"></asp:Label>
                              <br />
-                             &nbsp;<br />&nbsp;<asp:Label ID="Label18" runat="server" Text="Label"></asp:Label>
-&nbsp;
-                             <div id ="image-18"></div>
+                             &nbsp;<br />&nbsp;&nbsp;&nbsp;<div id ="image-18"></div>
                          </td>
                          <td class="auto-style2">
                              <asp:Image ID="Image19" runat="server" Height="213px" Width="314px" />
@@ -417,11 +475,9 @@
                              <br />
                              Views:<asp:Label ID="lbl19_views" runat="server" Text="Label"></asp:Label>
                              <br />
-                             &nbsp;<asp:Label ID="Label19" runat="server" Text="Label"></asp:Label>
-                             
-                              <div id ="image-19"></div>
+                             &nbsp;<div id ="image-19"></div>
                          </td>
-                         <td>
+                         <td class="auto-style25">
                              <asp:Image ID="Image20" runat="server" Height="206px" Width="305px" />
                              <br />
                              <br />
@@ -432,9 +488,7 @@
                              Views:<asp:Label ID="lbl20_views" runat="server" Text="Label"></asp:Label>
                              <br />
                              <br />
-                             &nbsp;<asp:Label ID="Label20" runat="server" Text="Label"></asp:Label>
-                             
-                              <div id ="image-20"></div>
+                             &nbsp;<div id ="image-20" style="width: 363px"></div>
                          </td>
                      </tr>
                 </table>
@@ -445,11 +499,58 @@
           
         </asp:MultiView>
         <br />
+        &nbsp;
+            <table cellpadding="0" class="auto-style11" style="border-color: #000000">
+                <tr>
+                    <td class="auto-style12"><asp:Label ID="Label18" runat="server" Text="Label"></asp:Label>
+                    </td>
+                    <td class="auto-style13"><asp:Label ID="Label19" runat="server" Text="Label"></asp:Label>
+                             
+                              </td>
+                    <td class="auto-style14"><asp:Label ID="Label20" runat="server" Text="Label"></asp:Label>
+                             
+                              </td>
+                    <td class="auto-style15"><asp:Label ID="Label15" runat="server" Text="Label"></asp:Label>
+                             
+                              </td>
+                </tr>
+            </table>
         <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="btn_nxt" runat="server" Height="30px" OnClick="btn_nxt_Click" Text="Next" Width="287px" CssClass="buttonstyle" />
+        &nbsp;<table cellpadding="0" cellspacing="0" class="auto-style16">
+                <tr>
+                    <td class="auto-style18">&nbsp;&nbsp;<asp:Label ID="Label16" runat="server" Text="Label"></asp:Label>
+                             
+                              </td>
+                    <td class="auto-style20">
+                             <asp:Label ID="Label17" runat="server" Text="Label"></asp:Label>
+                             </td>
+                    <td class="auto-style22"><asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
+                             
+                              </td>
+                    <td class="auto-style17">
+                             <asp:Label ID="Label13" runat="server" Text="Label"></asp:Label>
+                             </td>
+                </tr>
+                <tr>
+                    <td class="auto-style19"><asp:Label ID="Label14" runat="server" Text="Label"></asp:Label>
+                             
+                              </td>
+                    <td class="auto-style21"><asp:Label ID="Label10" runat="server" Text="Label"></asp:Label>
+                            
+                             </td>
+                    <td class="auto-style23"><asp:Label ID="Label11" runat="server" Text="Label"></asp:Label>
+                            
+                             </td>
+                    <td>
+                            <asp:Label ID="Label21" runat="server" Text="Label"></asp:Label>
+                             </td>
+                </tr>
+            </table>
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="btn_nxt" runat="server" Height="30px" OnClick="btn_nxt_Click" Text="Next" Width="287px" CssClass="buttonstyle" />
-        <br />
+                    <br />
 &nbsp;
            
   
@@ -469,7 +570,6 @@
     js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-
         var v1 = document.getElementById("Label1");
         var v2 = document.getElementById("Label2");
         var v3 = document.getElementById("Label3");
@@ -490,9 +590,8 @@
         var v18 = document.getElementById("Label18");
         var v19 = document.getElementById("Label19");
         var v20 = document.getElementById("Label20");
-       
-        var url1 = v1.innerHTML;
 
+        var url1 = v1.innerHTML;
         // for (var j = 1; j <= 3; j++) {
         var d1 = document.getElementById("image-1");
         // for(var i = 0; i < urls.length; i++) {
@@ -521,9 +620,9 @@
         el3.setAttribute("data-mobile-iframe", "true");
         d3.appendChild(el3);
         var urls = [v4.innerText, v5.innerText, v6.innerText, v7.innerHTML, v8.innerText, v9.innerText];
-        for (var i = 0; i <urls.length; i++) {
+        for (var i = 0; i < urls.length; i++) {
             var count = 4 + i;
-            var d4 = document.getElementById("image-"+count);
+            var d4 = document.getElementById("image-" + count);
             // for(var i = 0; i < urls.length; i++) {
             var el4 = document.createElement("div");
             el4.setAttribute("class", "fb-share-button");
@@ -532,7 +631,6 @@
             el4.setAttribute("data-mobile-iframe", "true");
             d4.appendChild(el4);
         }
-
  </script>  
 </body>
 </html>
