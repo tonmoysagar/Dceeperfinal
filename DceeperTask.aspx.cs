@@ -42,15 +42,17 @@ public partial class _Default : System.Web.UI.Page
             var id = "farm" + photos[0].Farm + ".staticflickr.com./" + photos[0].Server + "/" + photos[0].PhotoId + "_" + photos[0].Secret + ".jpg";
             Image1.ImageUrl = "http://" + id;
             Label1.Text = Image1.ImageUrl;
+           
             id = "farm" + photos[1].Farm + ".staticflickr.com./" + photos[1].Server + "/" + photos[1].PhotoId + "_" + photos[1].Secret + ".jpg";
             Image2.ImageUrl = "http://" + id;
-            lbl2.Text = Image1.ImageUrl;
+            Label2.Text = Image2.ImageUrl;
+           
             id = "farm" + photos[2].Farm + ".staticflickr.com./" + photos[2].Server + "/" + photos[2].PhotoId + "_" + photos[2].Secret + ".jpg";
             Image3.ImageUrl = "http://" + id;
-            lbl3.Text = Image1.ImageUrl;
+           // Label3.Text = Image1.ImageUrl;
             id = "farm" + photos[3].Farm + ".staticflickr.com./" + photos[3].Server + "/" + photos[3].PhotoId + "_" + photos[3].Secret + ".jpg";
             Image4.ImageUrl = "http://" + id;
-            lbl4.Text = Image1.ImageUrl;
+           // Label4.Text = Image1.ImageUrl;
             id = "farm" + photos[4].Farm + ".staticflickr.com./" + photos[4].Server + "/" + photos[4].PhotoId + "_" + photos[4].Secret + ".jpg";
             Image5.ImageUrl = "http://" + id;
             lbl5.Text = Image1.ImageUrl;
@@ -77,7 +79,7 @@ public partial class _Default : System.Web.UI.Page
             lbl12.Text = Image1.ImageUrl;
             id = "farm" + photos[12].Farm + ".staticflickr.com./" + photos[12].Server + "/" + photos[12].PhotoId + "_" + photos[12].Secret + ".jpg";
             Image13.ImageUrl = "http://" + id;
-            lbl3.Text = Image1.ImageUrl;
+            lbl13.Text = Image1.ImageUrl;
             id = "farm" + photos[13].Farm + ".staticflickr.com./" + photos[13].Server + "/" + photos[13].PhotoId + "_" + photos[13].Secret + ".jpg";
             Image14.ImageUrl = "http://" + id;
             lbl14.Text = Image1.ImageUrl;
