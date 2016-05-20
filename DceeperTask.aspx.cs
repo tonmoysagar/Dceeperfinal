@@ -49,7 +49,7 @@ public partial class _Default : System.Web.UI.Page
            
             id = "farm" + photos[2].Farm + ".staticflickr.com./" + photos[2].Server + "/" + photos[2].PhotoId + "_" + photos[2].Secret + ".jpg";
             Image3.ImageUrl = "http://" + id;
-           // Label3.Text = Image1.ImageUrl;
+            Label3.Text = Image1.ImageUrl;
             id = "farm" + photos[3].Farm + ".staticflickr.com./" + photos[3].Server + "/" + photos[3].PhotoId + "_" + photos[3].Secret + ".jpg";
             Image4.ImageUrl = "http://" + id;
            // Label4.Text = Image1.ImageUrl;

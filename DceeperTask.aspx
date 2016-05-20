@@ -121,11 +121,11 @@
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;
-                            <asp:Label ID="lbl3" runat="server" Text="Label" Visible="False"></asp:Label>
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
                             <br />
-                             <div id ="images3"></div>
+                             <div id ="image-3"></div>
                         </td>
                     </tr>
                     <tr>
@@ -461,7 +461,7 @@
 
         var v1 = document.getElementById("Label1");
         var v2 = document.getElementById("Label2");
-       // var v3 = document.getElementById("TextBox2");
+        var v3 = document.getElementById("Label3");
         var url1 = v1.innerHTML;
 
         // for (var j = 1; j <= 3; j++) {
@@ -482,6 +482,15 @@
         el2.setAttribute("data-layout", "button_count");
         el2.setAttribute("data-mobile-iframe", "true");
         d2.appendChild(el2);
+        var url3 = v2.innerText;
+        var d3 = document.getElementById("image-3");
+        // for(var i = 0; i < urls.length; i++) {
+        var el3 = document.createElement("div");
+        el3.setAttribute("class", "fb-share-button");
+        el3.setAttribute("data-href", url2);
+        el3.setAttribute("data-layout", "button_count");
+        el3.setAttribute("data-mobile-iframe", "true");
+        d3.appendChild(el3);
 
 
  </script>  
