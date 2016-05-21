@@ -206,7 +206,6 @@
                             &nbsp;&nbsp;&nbsp;&nbsp;
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
                             <br />
                              <div id ="image-3"></div>
                         </td>
@@ -545,7 +544,9 @@
                              </td>
                     <td>
                             <asp:Label ID="Label21" runat="server" Text="Label"></asp:Label>
-                             </td>
+                             &nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                            </td>
                 </tr>
             </table>
         <br />
