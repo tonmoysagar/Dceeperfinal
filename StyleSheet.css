@@ -6,9 +6,8 @@
 }
 
 body {
-   
-    background-image:  url("~/img/goasunset.jpg");
-     background-repeat:no-repeat;
+    background-image: url("~/img/goasunset.jpg.");
+    background-repeat: no-repeat;
     background-size: cover;
     font-family: Candara;
 }
