@@ -243,6 +243,8 @@ public partial class _Default : System.Web.UI.Page
     }
 
 
+
+
     protected void btn_nxt_Click(object sender, EventArgs e)
     {
         if (MultiView1.ActiveViewIndex >= 1)
@@ -254,6 +256,4 @@ public partial class _Default : System.Web.UI.Page
             MultiView1.ActiveViewIndex = 1;
         }
     }
-
-
 }
