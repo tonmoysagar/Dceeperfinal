@@ -31,7 +31,7 @@ public partial class _Default : System.Web.UI.Page
 
 
 
-            Image21.ImageUrl = "http://thumbs.dreamstime.com/z/text-goa-sand-beach-64244230.jpg";
+            Image21.ImageUrl = "http://i1.wp.com/EDMofy.com/wp-content/uploads/2015/09/20141228-Rudgrcom-Sunburn-0755-2048px.jpg?resize=520%2C245";
             i++;
 
             PhotoSearchOptions options = new PhotoSearchOptions();
@@ -246,17 +246,16 @@ public partial class _Default : System.Web.UI.Page
 
 
 
+
     protected void btn_nxt_Click(object sender, EventArgs e)
     {
-        if (view == 1)
+        if (MultiView1.ActiveViewIndex >= 1)
         {
             MultiView1.ActiveViewIndex = 0;
-            view = 0;
         }
         else
         {
             MultiView1.ActiveViewIndex = 1;
-            view = 1;
         }
     }
 }
