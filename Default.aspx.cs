@@ -31,7 +31,7 @@ public partial class _Default : System.Web.UI.Page
 
 
 
-            Image21.ImageUrl = "http://i1.wp.com/EDMofy.com/wp-content/uploads/2015/09/20141228-Rudgrcom-Sunburn-0755-2048px.jpg?resize=520%2C245";
+            Image21.ImageUrl = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSb9Y80uSoi87BsSE9lSAHFedFoKE8K7NpddElJVDjp2927IcUnGw";
             i++;
 
             PhotoSearchOptions options = new PhotoSearchOptions();
