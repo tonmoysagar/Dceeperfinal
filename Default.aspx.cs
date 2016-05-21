@@ -16,6 +16,7 @@ public partial class _Default : System.Web.UI.Page
     const string fb_key = "1255716371122485";
     const string fb_secret = "95f9964dcfb485c23ae06b02f87ade94";
     static int i = 0;
+    int view = 0;
 
 
     protected void Page_Load(object sender, EventArgs e)
@@ -30,7 +31,7 @@ public partial class _Default : System.Web.UI.Page
 
 
 
-            Image21.ImageUrl = image_addr[i];
+            Image21.ImageUrl = "http://thumbs.dreamstime.com/z/text-goa-sand-beach-64244230.jpg";
             i++;
 
             PhotoSearchOptions options = new PhotoSearchOptions();
@@ -247,13 +248,15 @@ public partial class _Default : System.Web.UI.Page
 
     protected void btn_nxt_Click(object sender, EventArgs e)
     {
-        if (MultiView1.ActiveViewIndex >= 1)
+        if (view == 1)
         {
             MultiView1.ActiveViewIndex = 0;
+            view = 0;
         }
         else
         {
             MultiView1.ActiveViewIndex = 1;
+            view = 1;
         }
     }
 }
