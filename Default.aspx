@@ -633,5 +633,47 @@
             d4.appendChild(el4);
         }
  </script>  
+     <script>
+         !function (d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+             if (!d.getElementById(id)) {
+                 js = d.createElement(s);
+                 js.id = id; js.src = p + '://platform.twitter.com/widgets.js';
+                 fjs.parentNode.insertBefore(js, fjs);
+             }
+         }(document, 'script', 'twitter-wjs');
+         var v1 = document.getElementById("Label1");
+         var v2 = document.getElementById("Label2");
+         var v3 = document.getElementById("Label3");
+         var v4 = document.getElementById("Label4");
+         var v5 = document.getElementById("Label5");
+         var v6 = document.getElementById("Label6");
+         var v7 = document.getElementById("Label7");
+         var v8 = document.getElementById("Label8");
+         var v9 = document.getElementById("Label9");
+         var v10 = document.getElementById("Label0");
+         var v11 = document.getElementById("Label11");
+         var v12 = document.getElementById("Label12");
+         var v13 = document.getElementById("Label13");
+         var v14 = document.getElementById("Label14");
+         var v15 = document.getElementById("Label15");
+         var v16 = document.getElementById("Label16");
+         var v17 = document.getElementById("Label17");
+         var v18 = document.getElementById("Label18");
+         var v19 = document.getElementById("Label19");
+         var v20 = document.getElementById("Label20");
+         var uri = [v1.innerText, v2.innerText, v3.innerText, v4.innerText, v5.innerText, v6.innerText, v7.innerHTML, v8.innerText, v9.innerText];
+         for (var j = 1; j <=uri.length; j++) {
+            
+            
+             var dt = document.getElementById("image-"+ j);
+             var elt = document.createElement("a");
+             elt.setAttribute("href", "https://twitter.com/share");
+             elt.setAttribute("class", "twitter-share-button");
+             elt.setAttribute("data-url", uri[j-1]);
+             elt.innerHTML = "Tweet";
+             dt.appendChild(elt);
+         }
+</script> 
 </body>
 </html>
