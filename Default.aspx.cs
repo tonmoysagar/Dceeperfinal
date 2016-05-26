@@ -31,7 +31,7 @@ public partial class _Default : System.Web.UI.Page
 
 
 
-            Image21.ImageUrl = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShtfg2RGv6v_rcDKtavvMIWgtL9xbCTBIXijn1GdvJGVFl4cDqUQ";
+            Image21.ImageUrl = "http://www.hdwallpapersact.com/wp-content/uploads/2012/11/Goa-beach-wallpaper.jpg";
             i++;
 
             PhotoSearchOptions options = new PhotoSearchOptions();
